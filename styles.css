@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;     
+    }
+
+
+
+
+
+#game{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#game-container{
+    position: relative;
+    height: 330px;
+}
+
+  #court {
+    height: 330px;
+    width: 600px;
+
+  }
+  #ball {
+    position: absolute;
+    height: 40px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    transition: 1s all;
+  }
+
+  #team-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px
+  }
+
+  #score-notification{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
